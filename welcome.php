@@ -8,7 +8,7 @@
 <div>
   <table>
     <tr>
-      <th>Welcome <?php echo $_GET["FirstName"]; ?>, Thank you for joing our team!</th>
+      <th>Welcome <?php echo $_GET["FirstName"]; ?>, Thank you for joining our team!</th>
     </tr>
     <tr>
       <th><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/Database/index.php'">Home</button></th>
