@@ -1,3 +1,5 @@
+<!-- file: welcome.php -->
+
 <html>
 <head>
   <title>Join the Fun!</title>

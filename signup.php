@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-
 <!--
 Author:	Gavin Trevino
 URL:	http://ectweb.cs.depaul.edu/GTREVIN1/Database/signup.php
@@ -11,6 +7,11 @@ Develop a simple PHP Web site that allows a user to enter some
 information in a HTML form and responds to the user’s input.
 -->
 
+<!-- file: signup.php -->
+
+<!DOCTYPE html>
+<html>
+<head>
 
   <title>Join the Fun!</title>
   <link rel="stylesheet" type="text/css" href="signup.css">
