@@ -1,4 +1,4 @@
-<!-- file: index.php -->
+<!-- file: mycollection.php -->
 
 <!DOCTYPE html>
 <html>

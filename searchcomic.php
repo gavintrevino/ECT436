@@ -1,3 +1,5 @@
+<!-- file: searchcomic.php -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,13 +12,13 @@
 <div>
 <table>
   <tr>
-    <th><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/Database/index.php'">Home</button></th>
-    <th><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/Database/signup.php'">Sign Up</button></th>
+    <th><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/mycollection.php'">Home</button></th>
+    <th><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/searchcomic.php'">Search Collection</button></th>
   </tr>
 </table>
 </div>
  <div>
-  	<form action="searchcomic.php" method="GET">
+  	<form action="search.php" method="POST">
 	Name: <input type="text" name="NAME" required><br><br>
 <!--	Issue Number: <input type="ISSUE_NUMBER" name="ISSUE_NUMBER" required><br>
 	Printing: <input type="text" name="PRINTING" required><br><br>
