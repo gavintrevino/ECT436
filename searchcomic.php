@@ -4,32 +4,27 @@
 <html>
 <head>
   <title>MY COLLECTION: ADD COMIC</title>
-  <link rel="stylesheet" type="text/css" href="signup.css">
+  <link rel="stylesheet" type="text/css" href="mycollection.css">
 </head>
 <body>
 <h1>My Collection</h1>
 <h2>Search Collection</h2>
-<div>
-<table>
-  <tr>
-    <th><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/mycollection.php'">Home</button></th>
-    <th><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/searchcomic.php'">Search Collection</button></th>
-  </tr>
-</table>
-</div>
- <div>
+
+<ul class="nav">
+    <li><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/mycollection.php'">Home</button></li>
+    <li><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/addcomic.php'">Add</button><li>
+	<li><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/removecomic.php'">Remove</button></li>
+	<li><button type="button" onclick="window.location='http://ectweb.cs.depaul.edu/GTREVIN1/searchcomic.php'">Search</button></li>
+	</ul>
+
+ <div class="center">
   	<form action="search.php" method="POST">
-	Name: <input type="text" name="NAME" required><br><br>
-<!--	Issue Number: <input type="ISSUE_NUMBER" name="ISSUE_NUMBER" required><br>
-	Printing: <input type="text" name="PRINTING" required><br><br>
-	Month: <input type="text" name="MONTH" required><br>
-	Year: <input type="text" name="YEAR" required><br><br>
-	Writer First Name: <input type="text" name="WRITER_FNAME" required><br>
-	Writer Last Name: <input type="text" name="WRITER_LNAME" required><br><br>
-	Notes: <input type="text" name="NOTES" required><br> -->
+	Title: <input type="text" name="NAME"><br><br>
 	<input type="submit" name="submit" value="Search">
-	
 	</form>
+	<br>
+	<br>
+	<img src="images/question_mark.jpg" alt="question_mark"/>
  </div>
   </body>
 </html>
